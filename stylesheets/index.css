@@ -1,0 +1,13 @@
+.canvas-board{
+  border: 1px solid black;
+  margin: auto;
+}
+
+.app{
+  margin: auto;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}
