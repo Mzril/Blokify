@@ -2,6 +2,15 @@
   border: 1px solid black;
 }
 
+.header{
+  font-size: 60px;
+  font-family: 'Black Ops One', cursive;
+}
+
+body{
+  background : url('../assets/images/background.png')
+}
+
 .app{
   display: flex;
   flex-direction: column;
