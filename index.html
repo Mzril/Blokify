@@ -1,8 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>Blokify</title>
-  <link href="./stylesheets/application.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="./stylesheets/index.css"/>
   <script src="./lib/bundle.js"></script>
 </head>
@@ -10,12 +8,29 @@
   <div id="main">
     <div class="app">
       <h1>Blokify!</h1>
-      <canvas class="canvas-board" id="drawing" width="600px" height="600px"></canvas>
+      <canvas id="canvas" class="canvas-board" id="drawing" width="600px" height="600px"></canvas>
+      <div class="option-buttons">
+         <div class="option-button">
+           <button id="8" type="button" name="button">3x3</button>
+         </div>
+         <div class="option-button">
+           <button id="15" type="button" name="button">4x4</button>
+         </div>
+         <div class="option-button">
+           <button id="reset"type="button" name="button">Reset!</button>
+         </div>
+         <div class="option-button">
+           <button id="changephoto" type="button" name="button">Change Image</button>
+         </div>
+         <div class="option-button">
+           <button id="userphoto" type="button" name="button">Take Photo!</button>
+         </div>
+      <div>
     </div>
   </div>
   <footer class="footer">
     <div>
-      This is the footer
+      This is the footer, it has all the links
     </div>
   </footer>
 </body>
