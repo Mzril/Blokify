@@ -3,16 +3,23 @@
   <title>Blokify</title>
   <link rel="stylesheet" href="./stylesheets/index.css"/>
   <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
   <script src="./lib/bundle.js"></script>
 </head>
 <body>
   <div id="main">
     <div class="app">
-      <h1 class="header">
-        Blokify!
+      <div class="info-container">
+        <h1 class="header">
+          Blokify!
+        </h1>
+        <i id="modal-open" class="fa fa-question-circle fa-3x" style="" aria-hidden="true"></i>
+        <i id="photo" class="fa fa-camera closed"></i>
+      </div>
 
-      </h1>
       <canvas id="canvas" class="canvas-board" id="drawing" width="600px" height="600px"></canvas>
+
       <div class="option-buttons">
          <div class="option-button">
            <button id="8" type="button" name="button">3x3</button>
@@ -32,5 +39,29 @@
       <div>
     </div>
   </div>
+
+
 </body>
+  <div id="modal" class="modal">
+    <div class="instructions">
+      <div class="instructions-header">
+        Welcome to Blokify!
+      </div>
+        <div id="modal-close"class="">
+          <i class="fa fa-window-close fa-2x" aria-hidden="true"></i>
+        </div>
+        <ul class="list">
+          <li>Click on 3x3 or 4x4 to start a game!</li>
+          <li>Use WASD or the Arrow Keys to slide tiles on the board.</li>
+          <li>Reset to Reset.</li>
+          <li>Cycle through the images using Change Image.</li>
+          <li>Take a selfie using the webcam with Take Photo.</li>
+        </ul>
+        <div class="portfolio-links">
+          <a href="https://mzril.github.io/">About Me</a>
+          <a href="https://www.linkedin.com/in/won-bae-seo-504ba8126/">LinkedIn</a>
+          <a href="https://github.com/Mzril">GitHub</a>
+        </div>
+    </div>
+  </div>
 </html>
