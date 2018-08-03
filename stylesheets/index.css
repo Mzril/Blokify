@@ -1,6 +1,7 @@
 .canvas-board{
   border: 2px solid #f2f2f2;
   background-color: lightgray;
+  position: relative;
 }
 
 .option-button>button{
@@ -20,6 +21,7 @@
   padding-left: 20px;
   padding-right: 20px;
   border: 3px solid grey;
+  margin-top: 30px;
 }
 
 .fa.fa-question-circle{
@@ -58,6 +60,10 @@
 
 body{
   background : url('../assets/images/background.png')
+}
+
+html{
+  overflow: hidden;
 }
 
 .app{
@@ -152,6 +158,36 @@ body{
   display: none;
 }
 
+
+.portfolio-main-page{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  left: 100px;
+  top: -135px;
+  /* background: white;
+  border-radius: 5px;
+  padding: 5px; */
+}
+
+.fa.fa-linkedin-square{
+  color: #0078b5;
+}
+
+.fa.fa-github{
+  color: black;
+}
+
+.fa.fa-user{
+  color: #FFDC00;
+}
+
+.portfolio-main-page > a{
+  text-decoration: none;
+}
 
 #modal-close{
   position: absolute;
