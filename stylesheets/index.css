@@ -22,6 +22,7 @@
   padding-right: 20px;
   border: 3px solid grey;
   margin-top: 30px;
+  position: relative;
 }
 
 .fa.fa-question-circle{
@@ -166,8 +167,9 @@ html{
   height: 100px;
   justify-content: space-around;
   align-items: center;
-  left: 100px;
-  top: -135px;
+  left: -50px;
+  top: -7px;
+  font-size: 16px;
   /* background: white;
   border-radius: 5px;
   padding: 5px; */
