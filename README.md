@@ -54,8 +54,8 @@ drawBloks(){
 
 ### Ensuring a Solvable Board
 
-According to [Wolfram Math](http://mathworld.wolfram.com/15Puzzle.html) for all nxn board states with the empty tile starting at the bottom right corner, half of all board states are unsolvable.
-I order for a board state to be solvable, the combined tile inversion sum must be even. 
+According to [Wolfram Math](http://mathworld.wolfram.com/15Puzzle.html) for all nxn board states with the empty tile starting at the bottom right corner, half of all board permutation states are unsolvable.
+In order for a board state to be solvable, the combined tile inversion sum must be even. 
 
 For example, the inversion sum of a [1,4,3,2] array has 4 before 3 and 2, and 3 before 2. Thus, the total sum is 2+1 or 3.
 
