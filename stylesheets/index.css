@@ -160,6 +160,18 @@ html{
   display: none;
 }
 
+.fa.fa-copyright{
+  font-size: 20px;
+}
+
+.copyright{
+  display: flex;
+  position: fixed;
+  top: 15px;
+  right : 15px;
+  font-family: 'Black Ops One', sans-serif;
+}
+
 .portfolio-main-page{
   position: absolute;
   display: flex;
