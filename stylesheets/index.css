@@ -98,6 +98,10 @@ html{
 
 .option-button{
   margin-left: 25px;
+
+}
+
+.option-button > button{
   cursor: pointer;
 }
 
