@@ -98,6 +98,7 @@ html{
 
 .option-button{
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .modal{
